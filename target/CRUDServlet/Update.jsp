@@ -7,18 +7,17 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title>Display Page</title>
-    <h1>Enter Values </h1>
-    <form action="updaterecord" method="post">
-    ID:<input type="number" name="idbox"><br>
-   <%-- Name:<input type="text" name="namebox"><br>
-    Email:<input type="email" name="emailbox"><br>
-    Address:<input type="text" name="addressbox"><br> --%>
-    <button type="submit">Add DATA</button>
-    </form>
-</head>
 <body>
+<title>Display Page</title>
+<h1>Update Page</h1>
+<h1>Enter Values </h1>
+<form action="updaterecord" method="post">
+    ID:<input type="number" name="idbox"><br>
+     Name:<input type="text" name="namebox"><br>
+     Email:<input type="email" name="emailbox"><br>
+     Address:<input type="text" name="addressbox"><br>
+    <button type="submit">Add DATA</button>
+</form>
 
 </body>
 </html>
